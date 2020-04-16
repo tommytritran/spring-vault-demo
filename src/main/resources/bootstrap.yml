@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: spring-vault-demo
+  cloud:
+    vault:
+      token: 12345
+      scheme: http
