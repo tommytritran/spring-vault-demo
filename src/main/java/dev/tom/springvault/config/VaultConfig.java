@@ -11,7 +11,7 @@ import org.springframework.vault.config.AbstractVaultConfiguration;
 import java.net.URI;
 
 @Configuration
-@VaultPropertySource("secrets/spring-vault-demo")
+@VaultPropertySource("secret/spring-vault-demo")
 public class VaultConfig extends AbstractVaultConfiguration {
 
     @Override
